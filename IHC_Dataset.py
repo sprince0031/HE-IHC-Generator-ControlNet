@@ -67,5 +67,5 @@ class HE_IHC_Dataset(Dataset):
 
         # Normalize target images to [-1, 1].
         ihc_image = (ihc_image.astype(np.float32) / 127.5) - 1.0
-
-        return dict(jpg=ihc_image, txt=ihc_score_prompt, hint=he_image)
+        
+        return dict(jpg=ihc_image, txt=ihc_score_prompt, hint=he_image, imgName=he_img_name)

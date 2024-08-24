@@ -1,0 +1,20 @@
+2024-08-24 18:46:34,628|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:46:34,628|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:46:34,687|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:46:34,687|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:48:25,164|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:48:25,164|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:48:25,224|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:48:25,224|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:49:06,085|IHC_Dataset|INFO|HE Image fetched: 00000_test_1+.png
+2024-08-24 18:50:20,784|IHC_Dataset|INFO|HE Image fetched: 00000_test_1+.png
+2024-08-24 18:54:07,765|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:54:07,765|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png
+2024-08-24 18:54:07,816|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png, object type: <class 'str'>
+2024-08-24 18:54:07,816|IHC_Dataset|INFO|HE Image fetched: 01264_train_2+.png, object type: <class 'str'>
+2024-08-24 18:54:07,816|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:54:07,816|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png
+2024-08-24 18:54:07,857|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png, object type: <class 'str'>
+2024-08-24 18:54:07,857|IHC_Dataset|INFO|HE Image fetched: 00124_test_3+.png, object type: <class 'str'>
+2024-08-24 18:56:05,169|IHC_Dataset|INFO|HE Image fetched: 00000_test_1+.png
+2024-08-24 18:56:05,220|IHC_Dataset|INFO|HE Image fetched: 00000_test_1+.png, object type: <class 'str'>

@@ -13,8 +13,8 @@ from cldm.model import create_model, load_state_dict
 resume_path = './models/control_sd21_ini.ckpt'
 batch_size = 4
 logger_freq = 300
-learning_rate = 1e-5 # <NOT IMPLEMENTED> slower learning rate for better results
-sd_locked = True # <NOT IMPLEMENTED> Allowing the lower layers of the SD model to be retrained considering this is a specific case
+learning_rate = 2e-6 # slower learning rate for better results
+sd_locked = False # Allowing the lower layers of the SD model to be retrained considering this is a specific case
 only_mid_control = False
 
 
@@ -41,5 +41,8 @@ trainer = pl.Trainer(devices=1, accelerator='gpu', precision=16, max_epochs=50, 
 
 
 # Train!
-# if __name__ == '__main__':
 trainer.fit(model, train_dataloader)
+# lightning_logs_path = './lightning_logs/version_10'
+# results = trainer.test(dataloaders=test_dataloader, ckpt_path='best')
+# with open(lightning_logs_path+'/results.json', 'w') as f:
+#     json.dump(results, f)
